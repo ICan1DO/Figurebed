@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head>
+<title>FreshRSS</title>
+</head>
+<body>
+<outline text="1常用" title="1常用">
+<outline title="bilibili 7日排行榜-全站-近期投稿" text="bilibili 7日排行榜-全站-近期投稿" type="rss" htmlUrl="https://www.bilibili.com" xmlUrl="https://rsshub.app/bilibili/ranking/0/7/1?limit=10" />
+<outline xmlUrl="https://trade0ff.herokuapp.com/bilibili/followings/video/268453420" text="B站动态" htmlUrl="https://t.bilibili.com/?tab=8" type="rss" title="B站动态" />
+<outline xmlUrl="https://wechat2rss.xlab.app/feed/0d2c5982deb01d2295ecf8f4891c9cb75d8d8ba3.xml" text="从零开始定投日记" type="rss" htmlUrl="https://wechat2rss.xlab.app/feed/0d2c5982deb01d2295ecf8f4891c9cb75d8d8ba3.xml" title="从零开始定投日记" />
+<outline type="rss" htmlUrl="https://sspai.com" title="少数派" text="少数派" xmlUrl="https://sspai.com/feed" />
+<outline htmlUrl="https://sspai.com/matrix" text="少数派 -- Matrix" xmlUrl="https://rsshub.iridium.cyou/sspai/matrix?mode=fulltext" title="少数派 -- Matrix" type="rss" />
+</outline>
+<outline title="2英语" text="2英语">
+<outline title="中国日报: 双语新闻" text="中国日报: 双语新闻" type="rss" htmlUrl="http://language.chinadaily.com.cn" xmlUrl="http://feedmaker.kindle4rss.com/feeds/language-news.chinadaily.xml" />
+<outline htmlUrl="http://news.iciba.com/" type="rss" title="金山词霸每日一句" xmlUrl="https://rsshub.app/iciba/7/poster" text="金山词霸每日一句" />
+</outline>
+<outline title="3数码" text="3数码">
+<outline title="iOS" type="rss" text="iOS" htmlUrl="https://www.v2ex.com/" xmlUrl="https://www.v2ex.com/feed/ios.xml" />
+<outline type="rss" text="V2EX-apple" htmlUrl="https://v2ex.com/?tab=apple" title="V2EX-apple" xmlUrl="https://rsshub.iridium.cyou/v2ex/tab/apple?limit=1" />
+<outline xmlUrl="https://www.mac52ipod.cn/feed.php" type="rss" htmlUrl="http://www.mac52ipod.cn/index.php" text="苹果fans博客" title="苹果fans博客" />
+<outline type="rss" text="酷安图文 - 编辑精选" xmlUrl="https://rsshub.app/coolapk/tuwen/hot" htmlUrl="https://www.coolapk.com/" title="酷安图文 - 编辑精选" />
+</outline>
+<outline title="4动漫|影视" text="4动漫|影视">
+<outline type="rss" xmlUrl="https://rsshub.iridium.cyou/douban/movie/playing/7.5" text="正在上映的超过 7.5 分的电影" title="正在上映的超过 7.5 分的电影" htmlUrl="https://movie.douban.com/cinema/nowplaying/" />
+<outline type="rss" title="航海王-iQiYi" text="航海王-iQiYi" htmlUrl="http://www.iqiyi.com/a_19rrhb3xvl.html" xmlUrl="https://rsshub.iridium.cyou/iqiyi/dongman/a_19rrhb3xvl" />
+<outline title="进击的巨人" xmlUrl="https://rsshub.iridium.cyou/ddrk/update/shingeki/4" htmlUrl="https://ddrk.me/shingeki/4/" text="进击的巨人" type="rss" />
+<outline text="风之动漫 - 一拳超人" xmlUrl="https://rsshub.iridium.cyou/fzdm/manhua/132?limit=10" htmlUrl="https://manhua.fffdm.com/132/" title="风之动漫 - 一拳超人" type="rss" />
+<outline text="风之动漫 - 海贼王" type="rss" htmlUrl="https://manhua.fffdm.com/2/" xmlUrl="https://rsshub.iridium.cyou/fzdm/manhua/2?limit=10" title="风之动漫 - 海贼王" />
+<outline xmlUrl="https://rsshub.iridium.cyou/fzdm/manhua/39?limit=10" type="rss" text="风之动漫 - 进击的巨人" title="风之动漫 - 进击的巨人" htmlUrl="https://manhua.fffdm.com/39/" />
+</outline>
+<outline text="5购物|羊毛" title="5购物|羊毛">
+<outline xmlUrl="https://rsshub.app/epicgames/freegames" htmlUrl="https://www.epicgames.com/store/zh-CN/" title="Epic 游戏限免" type="rss" text="Epic 游戏限免" />
+<outline htmlUrl="https://iao.su/" xmlUrl="https://iui.su/feed/" title="不死鸟 - 分享为王官网" type="rss" text="不死鸟 - 分享为王官网" />
+<outline xmlUrl="https://rsshub.iridium.cyou/smzdm/ranking/pinlei/17/12?limit=1" text="什么值得买-好价" title="什么值得买-好价" type="rss" htmlUrl="https://www.smzdm.com/top/" />
+</outline>
+<outline text="6阅读|学习" title="6阅读|学习">
+<outline text="四季书评" htmlUrl="https://www.4sbooks.com/" xmlUrl="https://www.4sbooks.com/feed" type="rss" title="四季书评" />
+<outline htmlUrl="https://youzhiyouxing.cn/materials?column_id=" text="有知有行" type="rss" xmlUrl="https://rsshub.app/youzhiyouxing/materials" title="有知有行" />
+<outline type="rss" xmlUrl="https://feedx.net/rss/shiwen.xml" text="每日古诗文" title="每日古诗文" htmlUrl="https://www.gushiwen.org/" />
+<outline title="结绳志 Tying Knots" text="结绳志 Tying Knots" htmlUrl="https://tyingknots.net/" xmlUrl="https://tyingknots.net/feed/" type="rss" />
+<outline title="读书笔记 - 幕布精选社区" htmlUrl="https://mubu.com/explore?categoryId=16" type="rss" xmlUrl="https://rsshub.iridium.cyou/mubu/explore/16/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" text="读书笔记 - 幕布精选社区" />
+<outline text="豆瓣最受欢迎的书评" htmlUrl="https://book.douban.com" title="豆瓣最受欢迎的书评" type="rss" xmlUrl="http://feedmaker.kindle4rss.com/feeds/book_review_best.douban.xml" />
+</outline>
+<outline title="7软件" text="7软件">
+<outline title="小众软件" htmlUrl="https://www.appinn.com/" type="rss" xmlUrl="https://feeds.feedburner.com/appinncom" text="小众软件" />
+<outline text="异次元软件世界" type="rss" xmlUrl="https://feed.iplaysoft.com/" title="异次元软件世界" htmlUrl="https://www.iplaysoft.com/" />
+</outline>
+<outline text="8播客|视频" title="8播客|视频">
+<outline type="rss" title="一派·Podcast" htmlUrl="https://sspai.typlog.io/" text="一派·Podcast" xmlUrl="https://sspai.typlog.io/feed/audio.xml" />
+<outline title="潘吉Jenny告诉你-学英语聊美国" text="潘吉Jenny告诉你-学英语聊美国" type="rss" xmlUrl="https://rsshub.iridium.cyou/ximalaya/album/262212/0/shownote" htmlUrl="https://www.ximalaya.com/waiyu/262212/" />
+<outline xmlUrl="https://rsshub.iridium.cyou/ximalaya/album/30516031/0/shownote" text="谐星聊天会" type="rss" title="谐星聊天会" htmlUrl="https://www.ximalaya.com/yule/30516031/" />
+</outline>
+<outline text="9其他" title="9其他">
+<outline htmlUrl="https://hellogithub.com/" text="HelloGitHub 月刊" type="rss" xmlUrl="https://hellogithub.com/rss" title="HelloGitHub 月刊" />
+<outline type="rss" text="中文讨论区 - Listary Discussions" htmlUrl="https://discussion.listary.com/c/14-category/14" xmlUrl="https://discussion.listary.com/c/14-category/14.rss" title="中文讨论区 - Listary Discussions" />
+</outline>
+<outline text="9技术|教程" title="9技术|教程">
+<outline type="rss" title="Faker Engine" text="Faker Engine" htmlUrl="https://www.fakerengine.com/" xmlUrl="https://www.fakerengine.com/rss" />
+<outline htmlUrl="https://t.me/s/theBlockClub" type="rss" title="TG- Notion教程" text="TG- Notion教程" xmlUrl="https://rsshub.iridium.cyou/telegram/channel/theBlockClub" />
+<outline type="rss" title="VAY冬冬の秘密 Blog" text="VAY冬冬の秘密 Blog" htmlUrl="https://blog.vay1314.top/" xmlUrl="https://blog.vay1314.top/feed" />
+<outline type="rss" title="极客部落" text="极客部落" xmlUrl="https://g22z.com/feed" htmlUrl="http://g22z.com/" />
+</outline>
+<outline text="未分类" title="未分类">
+<outline type="rss" htmlUrl="https://www.freshrss.org/" xmlUrl="https://rssnotifications.pages.dev/atom.xml" text="FreshRSS releases" title="FreshRSS releases" />
+<outline type="rss" text="Unofficial Official NetNewsWire Themes Directory" xmlUrl="https://nnw-themes.xyz/feed.rss" htmlUrl="https://nnw-themes.xyz/" title="Unofficial Official NetNewsWire Themes Directory" />
+<outline htmlUrl="http://centbrowser.cn/history.html" xmlUrl="https://rsshub.app/centbrowser/history" title="Cent Browser 更新日志" text="Cent Browser 更新日志" type="rss" />
+<outline type="rss" title="NetNewsWire" text="NetNewsWire" xmlUrl="https://netnewswire.blog/feed.xml" htmlUrl="https://nnw.ranchero.com/" />
+<outline htmlUrl="https://docs.rsshub.app/" type="rss" text="RSSHub 有新路由啦" title="RSSHub 有新路由啦" xmlUrl="https://rsshub.app/rsshub/routes?limit=5" />
+</outline>
+</body>
+</opml>
