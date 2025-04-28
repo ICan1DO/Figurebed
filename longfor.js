@@ -212,7 +212,7 @@ async function lotterySignin(user) {
             dataType: "json",
             body: {
                 "task_id": "",
-                "activity_no": "11111111111725156856102879310000"
+                "activity_no": "AP25W033P1KJBXNR"
             }
         }
         let res = await fetch(opts);
@@ -243,7 +243,7 @@ async function lotteryClock(user) {
             body: {
                 "task_id": "",
                 "time": getDateTime(),
-                "activity_no": "11111111111725156856102879310000",
+                "activity_no": "AP25W033P1KJBXNR",
                 "use_luck": 0
             }
         }
