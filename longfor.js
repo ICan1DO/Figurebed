@@ -171,7 +171,7 @@ async function signinAPP(user) {
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'token': user.token,
                 'x-lf-dxrisk-token': user['x-lf-dxrisk-token'],
-                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
+                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -205,8 +205,8 @@ async function lotterySignin(user) {
                 'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
-                'origin': 'https://longzhu.longfor.com',
-                'referer': 'https://longzhu.longfor.com/'
+                'origin': 'https://llt.longfor.com',
+                'referer': 'https://llt.longfor.com/'
             },
             type: 'post',
             dataType: "json",
@@ -234,8 +234,8 @@ async function lotteryClock(user) {
                 'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
-                'origin': 'https://longzhu.longfor.com',
-                'referer': 'https://longzhu.longfor.com/',
+                'origin': 'https://llt.longfor.com',
+                'referer': 'https://llt.longfor.com/',
                 'x-lf-dxrisk-source': user['x-lf-dxrisk-source']
             },
             type: 'post',
@@ -265,8 +265,8 @@ async function lotterySigninAPP(user) {
                 'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
-                'origin': 'https://longzhu.longfor.com',
-                'referer': 'https://longzhu.longfor.com/'
+                'origin': 'https://llt.longfor.com',
+                'referer': 'https://llt.longfor.com/'
             },
             type: 'post',
             dataType: "json",
@@ -294,8 +294,8 @@ async function lotteryClockAPP(user) {
                 'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
-                'origin': 'https://longzhu.longfor.com',
-                'referer': 'https://longzhu.longfor.com/',
+                'origin': 'https://llt.longfor.com',
+                'referer': 'https://llt.longfor.com/',
                 'x-lf-dxrisk-source': user['x-lf-dxrisk-source']
             },
             type: 'post',
