@@ -68,11 +68,10 @@ async function main() {
 
             // 签到
             const reward_num = await signin(user);
+            const reward_num = await signinAPP(user);
             if ($.ckStatus) {
                 // 抽奖签到
                 await lotterySignin(user)
-                // 抽奖签到
-                await lotterySigninAPP(user)
                 // 抽奖
                 await lotteryClock(user)
                 //查询用户信息
