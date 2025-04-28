@@ -68,6 +68,43 @@ async function main() {
 
             // 签到
             const reward_num = await signin(user);
+            if ($.ckStatus) {
+                // 抽奖签到
+                await lotterySignin(user)
+                // 抽奖
+                await lotteryClock(user)
+                //查询用户信息
+                const { nick_name, growth_value, level, head_portrait } = await getUserInfo(user)
+                //查询珑珠
+                const { balance } = await getBalance(user)
+                $.avatar = head_portrait;
+                $.title = `本次运行共获得${reward_num}积分`
+                DoubleLog(`当前用户:${nick_name}\n成长值: ${growth_value}  等级: V${level}  珑珠: ${balance}`)
+            } else {
+                DoubleLog(`⛔️ 「${user.userName ?? `账号${index}`}」check ck error!`)
+            }
+            //notify
+            await sendMsg($.notifyMsg.join("\n"));
+        }
+    } catch (e) {
+        throw e
+    }
+    //APP签到
+    try {
+        //check accounts
+        if (!userCookie?.length) throw new Error("找不到可用的帐户");
+        $.log(`⚙️ 发现 ${userCookie?.length ?? 0} 个帐户\n`);
+        let index = 0;
+        //doTask of userList
+        for (let user of userCookie) {
+            //init of user
+            $.log(`🚀 开始任务`),
+                $.notifyMsg = [],
+                $.ckStatus = true,
+                $.title = "",
+                $.avatar = "";
+
+            // 签到
             const reward_num = await signinAPP(user);
             if ($.ckStatus) {
                 // 抽奖签到
