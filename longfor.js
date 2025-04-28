@@ -139,7 +139,7 @@ async function signin(user) {
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'token': user.token,
                 'x-lf-dxrisk-token': user['x-lf-dxrisk-token'],
-                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
+                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -171,7 +171,7 @@ async function signinAPP(user) {
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'token': user.token,
                 'x-lf-dxrisk-token': user['x-lf-dxrisk-token'],
-                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
+                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -202,7 +202,7 @@ async function lotterySignin(user) {
                 'cookie': user.cookie,
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'x-lf-usertoken': user.token,
-                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
+                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -211,7 +211,7 @@ async function lotterySignin(user) {
             type: 'post',
             dataType: "json",
             body: {
-                "task_id": "",
+                "component_no": "",
                 "activity_no": "AP25W033P1KJBXNR"
             }
         }
@@ -231,7 +231,7 @@ async function lotteryClock(user) {
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'x-lf-usertoken': user.token,
                 'x-lf-dxrisk-token': user['x-lf-dxrisk-token'],
-                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
+                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -241,7 +241,7 @@ async function lotteryClock(user) {
             type: 'post',
             dataType: "json",
             body: {
-                "task_id": "",
+                "component_no": "",
                 "time": getDateTime(),
                 "activity_no": "AP25W033P1KJBXNR",
                 "use_luck": 0
@@ -262,7 +262,7 @@ async function lotterySigninAPP(user) {
                 'cookie': user.cookie,
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'x-lf-usertoken': user.token,
-                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
+                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -271,7 +271,7 @@ async function lotterySigninAPP(user) {
             type: 'post',
             dataType: "json",
             body: {
-                "task_id": "",
+                "component_no": "",
                 "activity_no": "AP257033I19CA8G8"
             }
         }
@@ -291,7 +291,7 @@ async function lotteryClockAPP(user) {
                 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.48(0x18003029) NetType/4G Language/zh_CN miniProgram/wx50282644351869da',
                 'x-lf-usertoken': user.token,
                 'x-lf-dxrisk-token': user['x-lf-dxrisk-token'],
-                'x-gaia-api-key': 'c06753f1-3e68-437d-b592-b94656ea5517',
+                'x-gaia-api-key': '2f9e3889-91d9-4684-8ff5-24d881438eaf',
                 'x-lf-bu-code': user['x-lf-bu-code'],
                 'x-lf-channel': user['x-lf-channel'],
                 'origin': 'https://longzhu.longfor.com',
@@ -301,7 +301,7 @@ async function lotteryClockAPP(user) {
             type: 'post',
             dataType: "json",
             body: {
-                "task_id": "",
+                "component_no": "",
                 "time": getDateTime(),
                 "activity_no": "AP257033I19CA8G8",
                 "use_luck": 0
